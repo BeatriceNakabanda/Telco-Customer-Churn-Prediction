@@ -7,7 +7,6 @@ The project has two main components:
 1. Model Analysis – Insights and predictions generated from the original dataset used to train and evaluate the model.
 2. Interactive Prediction App – A Streamlit web application where users can input customer information and receive a real-time churn risk prediction.
 
----
 
 # Live App
 
@@ -17,7 +16,6 @@ https://customer-churn-prediction-t.streamlit.app/
 
 Users can enter customer attributes such as contract type, tenure, and monthly charges to receive a predicted churn probability.
 
----
 
 # Dataset
 
@@ -32,7 +30,6 @@ The model is trained on the Telco Customer Churn dataset, which contains custome
 
 The dataset is used to train the machine learning model and evaluate its performance.
 
----
 
 # Model Insights (Dataset-Based Analysis)
 
@@ -42,25 +39,22 @@ The following visualizations are generated from the training dataset to help und
 
 Shows which customer attributes have the largest influence on churn prediction.
 
-![Feature Importance](figures/feature_importance.png)
+![Feature Importance](outputs/figures/feature_importance.png)
 
----
 
 ### Churn Distribution
 
 Displays the distribution of churn vs non-churn customers in the dataset.
 
-![Churn Distribution](figures/churn_distribution.png)
+![Churn Distribution](outputs/figures/churn_risk_distribution.png)
 
----
 
 ### Confusion Matrix
 
 Evaluates the model's classification performance on the test dataset.
 
-![Confusion Matrix](figures/confusion_matrix.png)
+![Confusion Matrix](outputs/figures/confusion_matrix.png)
 
----
 
 # Features
 
@@ -71,7 +65,6 @@ Evaluates the model's classification performance on the test dataset.
 - Provides Model Evaluation Metrics
 - Built using a Random Forest Machine Learning model
 
----
 
 # Machine Learning Workflow
 
@@ -83,7 +76,6 @@ Evaluates the model's classification performance on the test dataset.
 6. Model evaluation
 7. Deployment using Streamlit
 
----
 
 # Tech Stack
 
@@ -95,7 +87,6 @@ Evaluates the model's classification performance on the test dataset.
 - Seaborn
 - Git & GitHub
 
----
 
 # Run Locally
 
